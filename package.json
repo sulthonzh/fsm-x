@@ -3,12 +3,39 @@
   "version": "1.0.0",
   "description": "Zero-dep finite state machine library with hierarchical states, guards, actions, and visualization",
   "main": "index.js",
-  "bin": { "fsmx": "cli.js" },
+  "bin": {
+    "fsmx": "cli.js"
+  },
   "type": "module",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["fsm", "finite-state-machine", "state-machine", "statechart", "hierarchical", "xstate", "zero-dependency"],
+  "keywords": [
+    "fsm",
+    "finite-state-machine",
+    "state-machine",
+    "statechart",
+    "hierarchical",
+    "xstate",
+    "zero-dependency"
+  ],
   "license": "MIT",
-  "author": "sulthonzh"
+  "author": "sulthonzh",
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/fsm-x.git"
+  },
+  "homepage": "https://github.com/sulthonzh/fsm-x",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/fsm-x/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
